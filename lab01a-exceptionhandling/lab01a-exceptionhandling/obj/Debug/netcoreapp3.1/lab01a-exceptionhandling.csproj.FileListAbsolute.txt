@@ -1,0 +1,13 @@
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\bin\Debug\netcoreapp3.1\lab01a-exceptionhandling.exe
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\bin\Debug\netcoreapp3.1\lab01a-exceptionhandling.deps.json
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\bin\Debug\netcoreapp3.1\lab01a-exceptionhandling.runtimeconfig.json
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\bin\Debug\netcoreapp3.1\lab01a-exceptionhandling.runtimeconfig.dev.json
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\bin\Debug\netcoreapp3.1\lab01a-exceptionhandling.dll
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\bin\Debug\netcoreapp3.1\lab01a-exceptionhandling.pdb
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\obj\Debug\netcoreapp3.1\lab01a-exceptionhandling.csprojAssemblyReference.cache
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\obj\Debug\netcoreapp3.1\lab01a-exceptionhandling.AssemblyInfoInputs.cache
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\obj\Debug\netcoreapp3.1\lab01a-exceptionhandling.AssemblyInfo.cs
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\obj\Debug\netcoreapp3.1\lab01a-exceptionhandling.csproj.CoreCompileInputs.cache
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\obj\Debug\netcoreapp3.1\lab01a-exceptionhandling.dll
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\obj\Debug\netcoreapp3.1\lab01a-exceptionhandling.pdb
+C:\Users\AlanY\Documents\Projects\Code Fellows 401\lab01a-exceptionhandling\lab01a-exceptionhandling\lab01a-exceptionhandling\obj\Debug\netcoreapp3.1\lab01a-exceptionhandling.genruntimeconfig.cache

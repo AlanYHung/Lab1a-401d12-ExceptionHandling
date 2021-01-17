@@ -37,6 +37,7 @@ namespace lab01a_exceptionhandling
                 int[] userArray = new int[userInputInt];
                 userArray = Populate(userArray);
                 sum = GetSum(userArray);
+                Console.WriteLine("The sum of the array is {0}", sum);
                 product = GetProduct(userArray, sum);
                 quotient = GetQuotient(product);
             }
@@ -53,7 +54,10 @@ namespace lab01a_exceptionhandling
         static int[] Populate(int[] userArray)
         {
             string userInput;
+            string output = "The numbers in the array are ";
             int userInputInt;
+
+            Console.Write("The numbers in the array are ");
 
             for(int i = 0; i < userArray.Length; i++)
             {
@@ -61,7 +65,19 @@ namespace lab01a_exceptionhandling
                 userInput = Console.ReadLine();
                 userInputInt = Convert.ToInt32(userInput);
                 userArray[i] = userInputInt;
+
+                if(i < userArray.Length - 1)
+                {
+                    output += userArray[i] + ", "; 
+                }
+                else
+                {
+                    output += userArray[i];
+                }
             }
+
+            Console.WriteLine("Your array is size: {0}", userArray.Length);
+            Console.WriteLine(output);
 
             return userArray;
         }
@@ -88,13 +104,17 @@ namespace lab01a_exceptionhandling
             int product;
             string userInput;
             int userInputInt;
+            int arrayNum;
 
             try
             {
-                Console.WriteLine("Please select a random number between 1 and {}", userArray.Length);
+                Console.WriteLine("Please select a random number between 1 and {0}", userArray.Length);
                 userInput = Console.ReadLine();
                 userInputInt = Convert.ToInt32(userInput);
-                product = userArray[userInputInt - 1] * sum;
+                userInputInt--;
+                arrayNum = userArray[userInputInt];
+                product = arrayNum * sum;
+                Console.WriteLine("{0} * {1} = {2}", sum, arrayNum, product);
                 return product;
             }
             catch(IndexOutOfRangeException ioore)
@@ -105,7 +125,24 @@ namespace lab01a_exceptionhandling
 
         static decimal GetQuotient(int product)
         {
-            return 0;
+            decimal quotient;
+            string userInput;
+            decimal userInputDecimal;
+
+            try
+            {
+                Console.WriteLine("Please enter a number to divide your product {0} by", product);
+                userInput = Console.ReadLine();
+                userInputDecimal = Convert.ToDecimal(userInput);
+                quotient = decimal.Divide(product, userInputDecimal);
+                Console.WriteLine("{0} / {1} = {2}", product, userInputDecimal, quotient);
+                return quotient;
+            }
+            catch(DivideByZeroException dbze)
+            {
+                Console.WriteLine("Cannot divide by zero: {0}", dbze);
+                return 0;
+            }
         }
     }
 }
