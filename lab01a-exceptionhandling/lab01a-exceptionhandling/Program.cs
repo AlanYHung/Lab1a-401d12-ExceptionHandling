@@ -4,6 +4,8 @@ namespace lab01a_exceptionhandling
 {
     class Program
     {
+        // This method starts and ends the program.  
+        // Catches any generic exceptions not handled by the rest of the methods.
         static void Main(string[] args)
         {
             try
@@ -20,6 +22,8 @@ namespace lab01a_exceptionhandling
             }
         }
 
+        // This method provides the initial prompt for array size and controls the rest of the methods.  
+        // This method also provides the Exception handling for all methods.
         static void StartSequence()
         {
             string userInput;
@@ -51,6 +55,7 @@ namespace lab01a_exceptionhandling
             }
         }
 
+        // This method gets the array values from the user and puts those values into the array
         static int[] Populate(int[] userArray)
         {
             string userInput;
@@ -82,6 +87,8 @@ namespace lab01a_exceptionhandling
             return userArray;
         }
 
+        // This method sums up all the values of the array.  
+        // Will throw exception if the sum is less than 20
         static int GetSum(int[] userArray)
         {
             int sum = 0;
@@ -99,6 +106,8 @@ namespace lab01a_exceptionhandling
             return sum;
         }
 
+        // This will get an array index from the user and multiply the sum by the value of the array at the chosen index.
+        // This will throw an exception for any index out of range of the array.
         static int GetProduct(int[] userArray, int sum)
         {
             int product;
@@ -123,6 +132,8 @@ namespace lab01a_exceptionhandling
             }
         }
 
+        // This method will take the product calculated from the getProduct function and divide it by a user given quotient.
+        // This method will throw an Exception if user gives 0 for quotient.
         static decimal GetQuotient(int product)
         {
             decimal quotient;
