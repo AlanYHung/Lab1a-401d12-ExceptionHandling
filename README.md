@@ -8,7 +8,7 @@
 * Click Run
 
 ### Example
-* ![](./lab01a-exceptionhandling/lab01a-exceptionhandling/assets/lab01a_program_screenshot.PNG)
+![](./lab01a-exceptionhandling/lab01a-exceptionhandling/assets/lab01a_program_screenshot.PNG)
 
 ### Change Log
 * 0.1.0 - 1/16/2021 3:30pm - Main Method
